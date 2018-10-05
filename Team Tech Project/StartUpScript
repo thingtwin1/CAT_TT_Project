@@ -1,0 +1,18 @@
+//navigate to pi directoy
+
+//create a script we want to run
+sudo nano /etc/init.d/NameOfYourScript
+
+//make script runnable 
+sudo chmod 755 /etc/init.d/NameOfYourScript
+
+// run this in terminal
+sudo update-rc.d NameOfYourScript defaults
+
+//NameOfYourScript is where ever the get function is stored just changed the names and try running in init
+//run this and then restart the pi, it should start getting the data live
+
+//after that works:
+//do the same thing with the file we wrote to decode the messages
+or put the get function inside the decode file
+
